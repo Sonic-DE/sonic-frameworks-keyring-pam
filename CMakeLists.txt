@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(pam_kwallet)
-set(KF6_MIN_VERSION "6.26.0")
+set(KF6_MIN_VERSION "6.30.0")
 set(KDE_COMPILERSETTINGS_LEVEL "5.82")
 set(PROJECT_VERSION "6.7.5")
 
@@ -36,8 +36,8 @@ include_directories (
    ${CMAKE_CURRENT_BINARY_DIR}
 )
 
-ecm_set_disabled_deprecation_versions(QT 6.9.0
-    KF 6.16.0
+ecm_set_disabled_deprecation_versions(QT 6.11.0
+    KF 6.29.0
 )
 
 set(library_name "pam_kwallet5")
