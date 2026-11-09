@@ -2,7 +2,7 @@
 
 Sonic Frameworks Keyring PAM unlocks your SonicDE password wallet automatically with the password you type at login.
 
-## Unreleased
+## 6.8.2 (2026-11-10)
 
 - Your wallet is now unlocked at login before the SonicDE desktop shell starts, so your saved passwords are ready as soon as the desktop appears.
 
